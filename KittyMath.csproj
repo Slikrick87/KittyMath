@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="KittyMath.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="KittyMath.cs" />
+  </ItemGroup>
+
 </Project>

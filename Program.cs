@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics.Tracing;
 using System.Security.Cryptography;
+using KittyMath;
 
 namespace KittyMath
 {
@@ -21,9 +22,9 @@ namespace KittyMath
 
             string scribblings = "One2THreE4.fiVeSix";
 
-            decimal number = scribblings.ConvertToNumber();
+            decimal balance = scribblings.GetNumbers();
 
-            Console.WriteLine($"Your Bank Balance is: ${number}");
+            Console.WriteLine($"Your Bank Balance is: ${balance}");
         }
     }
 }
