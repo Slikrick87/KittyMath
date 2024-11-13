@@ -25,6 +25,7 @@ namespace KittyMath
             decimal balance = scribblings.GetNumbers();
 
             Console.WriteLine($"Your Bank Balance is: ${balance}");
+            Console.WriteLine($" {balance} - {0.56} = {balance - 0.56m}");
         }
     }
 }
